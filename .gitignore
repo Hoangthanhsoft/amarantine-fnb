@@ -1,0 +1,31 @@
+# Environment — NEVER commit
+.env
+*.env
+
+# Private services (Full Version — not in MIT)
+backend/services/drive_service.py
+backend/services/canva_service.py
+backend/services/facebook_service.py
+backend/services/midjourney_service.py
+backend/services/capcut_service.py
+backend/services/tracking_service_full.py
+backend/routers/publish.py
+
+# n8n workflows (competitive advantage)
+n8n/workflows/
+
+# Client configs (client IP)
+venues/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
