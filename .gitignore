@@ -16,10 +16,12 @@ n8n/workflows/
 
 # Client configs (client IP)
 venues/
-
-# Python cache
+# Python
 __pycache__/
 *.pyc
+.venv/
+.venv
+# Python cache
 *.pyo
 .pytest_cache/
 
